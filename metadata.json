@@ -1,0 +1,32 @@
+{
+  "name": "datacentred-cloudflare",
+  "version": "0.1.0",
+  "author": "DataCentred Ltd",
+  "summary": "Module for managing CloudFlare DNS",
+  "license": "Apache License, Version 2.0",
+  "source": "git://github.com/datacentred/datacentred-cloudflare.git",
+  "project_page": "https://github.com/datacentred/datacentred-cloudflare",
+  "issues_url": "https://github.com/datacentred/datacentred-cloudflare/issues",
+  "description": "Simple management of CloudFlare DNS entries",
+  "tags": ["cloudflare", "dns"],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [ "5.0", "6.0", "7.0" ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [ "14.04", "16.04" ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [ "5.0", "6.0" ]
+    },
+    {
+      "operatingsystem": "OpenBSD"
+    }
+   ],
+  "dependencies": [
+    { "name": "puppetlabs/stdlib", "version_requirement": "4.x" }
+  ]
+}
